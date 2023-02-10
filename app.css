@@ -1,0 +1,25 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+    background-color: green;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 8rem;
+    height: 3rem;
+    font-size: medium;
+    border-radius: 25px;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    background-color: green;
+}
+
+.black {
+    color: black;
+    border: 2px solid black;
+}
