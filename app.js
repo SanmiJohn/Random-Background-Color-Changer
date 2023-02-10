@@ -9,8 +9,6 @@ function Change() {
     Body.style.backgroundColor = `rgb(${i}, ${j}, ${k})`
     Button.style.backgroundColor = `rgb(${i}, ${j}, ${k})`
 
-    console.log(i, j, k)
-
     if (i === 255 && j === 255 && k === 255) {
         Button.classList.add('black')
     } else if (i === 255 && j === 250 && k === 250) {
